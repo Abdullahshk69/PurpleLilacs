@@ -32,7 +32,7 @@ Currently a work in progress, last updated on December 2nd 2023
 
 **Moving and Breakable Platforms**
 
-![GIF that depicts movable and breakable platforms](https://media.discordapp.net/attachments/1167883655541162189/1180589598766809139/ezgif.com-video-to-gif_3.gif?ex=657df8be&is=656b83be&hm=55e4d53ef04cf39314ae9760e66de57c524f4d825ff2697f65fe5ca25f71efb3&=)
+![GIF that depicts dynamic platform mechanic](https://cdn.discordapp.com/attachments/1167883655541162189/1180593752386052126/ezgif.com-optimize_3.gif?ex=657dfc9c&is=656b879c&hm=2eeef06f23b98eaba33997e58a8586e768b480179dc9f0cb5a359e3e7a542c90&)
 
 **Progression (to next level, next level is a wip so there's only blank space)**
 
@@ -47,6 +47,15 @@ Currently a work in progress, last updated on December 2nd 2023
 - Destructible Objects? - To add challenge to the game, but not overly important (we have enough mechanics to make a game work)
 - Pushable Objects
 - Wolf Child (AI NPC)? - May be too complicated for the amount of time allotted for the project
+
+## Obstacles
+Here are some issues/bugs we faced during implementation of this project:
+
+- Working on separate devices: We faced some issues with trying to work remotely from one another. File transfer was impossible due to Unity constantly getting confused which version of the editor we were workign with. We fixed it by using an in-built feature and a cloud storage provided by Unity.
+- Breakable platforms: It was quite challenging to implement these. Had to learn and understand how co-routines work.
+- Sprites: Had to figure out how to add multiple child gameObjects because our player  is not a perfect square sprite.
+- Setting up camera: It was a little difficult due to needing to create contraints and keep the camera within that constraint.
+- General Bugs: Slight errors and needed fixes that are too minor to be detailed.
 
 ## Adjustments Made From Original Plan
 - Shortened game from 3 sections/arcs to 1 in order to prevent burnout (as we only have a month to do this, more or less)
