@@ -1,5 +1,5 @@
 # Purple Lilacs
-Currently a work in progress, last updated on December 2nd 2023
+Currently a work in progress
 
 > A simple, relaxing 2D platforming game where you play as a Lamb in Wolf's Clothing, collecting flowers with your adopted wolf child.
 
