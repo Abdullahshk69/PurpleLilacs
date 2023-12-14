@@ -1,5 +1,7 @@
 # Purple Lilacs
-Currently a work in progress
+V0.5
+
+To view this README with proper formatting, please visit the GitHub: https://github.com/Abdullahshk69/PurpleLilacs/blob/main/README.md
 
 > A simple, relaxing 2D platforming game where you play as a Lamb in Wolf's Clothing, collecting flowers with your adopted wolf child.
 
@@ -56,6 +58,7 @@ Here are some issues/bugs we faced during implementation of this project:
 - Sprites: Had to figure out how to add multiple child gameObjects because our player  is not a perfect square sprite.
 - Setting up camera: It was a little difficult due to needing to create contraints and keep the camera within that constraint.
 - General Bugs: Slight errors and needed fixes that are too minor to be detailed.
+- Camera is buggy when a player respawns. It resnaps onto the player. There is little to be done as the camera has to follow the player.
 
 ## Adjustments Made From Original Plan
 - Shortened game from 3 sections/arcs to 1 in order to prevent burnout (as we only have a month to do this, more or less)
